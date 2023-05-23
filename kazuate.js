@@ -9,9 +9,7 @@ let kaisu = 0;
 // 将来以下の hantei(); の4回の呼び出しを全て削除する
 // 代わりにここでは，ボタンを押したら hantei() を呼び出すイベント処理をする
 hantei();
-hantei();
-hantei();
-hantei();
+
 
 // ボタンを押した後の処理をする関数 hantei() の定義
 function hantei() {
@@ -21,6 +19,8 @@ function hantei() {
   // 課題3-1: 正解判定する
   if (yoso === kotae) {
     console.log('正解です．おめでとう!');
+    let h1 = document.querySelector('p#result');
+    
   } else if(yoso < kotae) {
     console.log('まちがい．答えはもっと大きいですよ');
   } else {
