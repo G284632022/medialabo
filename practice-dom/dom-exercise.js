@@ -27,21 +27,21 @@ let a = document.createElement('img');
 a.setAttribute('src','taro.png');
 let b = document.createElement('p');
 b.insertAdjacentElement('beforeend',a);
-div-phototabele.insertAdjacentElement('beforeend',b);
+h3.insertAdjacentElement('beforeend',b);
 
 let h4 = document.querySelector('div#phototable');
 let c = document.createElement('img');
 a.setAttribute('src','jiro.png');
 let d = document.createElement('p');
 d.insertAdjacentElement('beforeend',c);
-div-phototabele.insertAdjacentElement('beforeend',d);
+h4.insertAdjacentElement('beforeend',d);
 
 let h5 = document.querySelector('div#phototable');
 let e = document.createElement('img');
 a.setAttribute('src','hanako.png');
 let f = document.createElement('p');
 f.insertAdjacentElement('beforeend',e);
-div-phototabele.insertAdjacentElement('beforeend',f);
+h5.insertAdjacentElement('beforeend',f);
 
 // 練習4-4 箇条書き削除プログラム
 let h6 = document.querySelectorAll('li');
