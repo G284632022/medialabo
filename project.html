@@ -2,18 +2,73 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>project</title>
+    <title>世界の天気</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.27.2/axios.min.js"></script>
     <script src="weather.js" defer></script>
     <link rel="stylesheet" href="project.css">
   </head>
   <body>
     <h1>世界の天気</h1>
     <h2>都市名</h2>
-    <p>天候</p>
-    <p>最高気温</p>
-    <p>最低気温</p>
-    <p>湿度</p>
-    <p>風向き</p>
+    <div>
+      <input type="radio" name="countly" id="c1" value="1">
+      <label for="c1">カイロ(エジプト)</label>
+    </div>
+    <div>
+      <input type="radio" name="countly" id="c2" value="2">
+      <label for="c2">モスクワ(ロシア)</label>
+    </div>
+    <div>
+      <input type="radio" name="countly" id="c3" value="3">
+      <label for="c3">ヨハネスブルグ(南アフリカ)</label>
+    </div>
+    <div>
+      <input type="radio" name="countly" id="c4" value="4">
+      <label for="c4">北京(中華人民共和国)</label>
+    </div>
+    <div>
+      <input type="radio" name="countly" id="c5" value="5">
+      <label for="c5">東京(日本)</label>
+    </div>
+    <div>
+      <input type="radio" name="countly" id="c6" value="6">
+      <label for="c6">シンガポール</label>
+    </div>
+    <div>
+      <input type="radio" name="countly" id="c7" value="7">
+      <label for="c7">シドニー(オーストラリア)</label>
+    </div>
+    <div>
+      <input type="radio" name="countly" id="c8" value="8">
+      <label for="c8">ロンドン(イギリス)</label>
+    </div>
+    <div>
+      <input type="radio" name="countly" id="c9" value="9">
+      <label for="c9">パリ(フランス)</label>
+    </div>
+    <div>
+      <input type="radio" name="countly" id="c10" value="10">
+      <label for="c10">リオデジャネイロ(ブラジル)</label>
+    </div>
+    <div>
+      <input type="radio" name="countly" id="c11" value="11">
+      <label for="c11">ニューヨーク(アメリカ合衆国)</label>
+    </div>
+    <div>
+      <input type="radio" name="countly" id="c12" value="12">
+      <label for="c12">ロサンゼルス(アメリカ合衆国)</label>
+    </div>
+    <div>
+      <button id="answer">表示する</button>
+    </div>
+    <h3 id="tenkou">天候:</h3>
+    <p id="tenkou"></p>
+    <h3 id="saikou">最高気温(℃):</h3>
+    <p id="saikou"></p>
+    <h3 id="saitei">最低気温(℃):</h3>
+    <p id="saitei"></p>
+    <h3 id="situdo">湿度(%):</h3>
+    <p id="situdo"></p>
 
 
 

@@ -7,3 +7,6 @@ background:linear-gradient(0.25turn,blue,white)
 }
 h2{color: rgb(49, 57, 57);
     background: linear-gradient(0.25turn,white,rgb(49,57,57));}
+h3{
+    color: rgb(65, 59, 241)
+}
